@@ -1,0 +1,89 @@
+#loginContainer{
+    width: 50vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+     
+}
+
+#banner{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    margin-top:10%;
+    width:10vw;
+    height:20vh;
+}
+
+@font-face {
+    font-family: NexaBlack;
+    src: url(./fonts/NexaBlack.otf);
+}
+@font-face {
+    font-family: NexaLight;
+    src: url(./fonts/NexaLight.otf);
+}
+@font-face {
+    font-family: NexaBoldItalic;
+    src: url(./fonts/NexaBoldItalic.otf);
+}
+
+@font-face {
+    font-family: NexaBold;
+    src: url(./fonts/NexaBold.otf);
+}
+
+
+#welcomeMessage{
+    font-family: NexaBlack;
+    font-size: 60px;
+    color: #FC4B08;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+
+.inputLayout{
+
+    font-family: NexaLight;
+    font-size: 100%;
+    width:75%;
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 4%; 
+    border-radius: 40px;
+    height:22%;
+    padding-left: 4%;
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    border:none;
+    outline: none;
+    background-color:rgba(68, 68, 68, 0.23) !important;
+}
+
+.buttonLayout{
+    margin-top: 4%;
+    width:35%;
+    margin-left: 8%;
+    border-radius: 45px;
+    height:28%;
+    border:none;
+    outline: none;
+}
+#submit{
+    background-color: #FC4B08;
+    color: white;
+    font-family: NexaBold;
+    font-size:24px;
+}
+#forgotPassword{
+    background-color: transparent;
+    color: #FC4B08;
+    font-family: NexaBoldItalic;
+    font-size: 22px;;
+}

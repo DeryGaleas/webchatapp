@@ -1,0 +1,54 @@
+#qrContainer {
+    width: 50vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:5%;
+}
+
+@font-face{
+    font-family:NexaXBold;
+    src:url(./fonts/NexaXBold.otf);
+}
+
+@font-face{
+    font-family:NexaThin;
+    src:url(./fonts/NexaThin.otf);
+}
+
+#qrTitle{
+font-size:45px;
+color:#FC4B08;
+font-family:NexaXBold;
+margin-bottom: -1%;
+}
+
+#qr{
+width:50%;
+}
+
+#checkBoxContainer{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+#checkBox{
+    appearance:none;
+    -webkit-appearance: none;
+    background-color:grey;
+    height:12px;
+    width:12px;
+}
+
+input[type="checkbox"]:after{
+    color:white;
+    display:none;
+}
+
+#checkBoxText{
+
+    font-family:NexaThin;
+}
