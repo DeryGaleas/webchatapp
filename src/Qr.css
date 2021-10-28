@@ -19,7 +19,7 @@
 }
 
 #qrTitle{
-font-size:45px;
+font-size:clamp(4px, 3vw, 45px);
 color:#FC4B08;
 font-family:NexaXBold;
 margin-bottom: -1%;
@@ -51,4 +51,5 @@ input[type="checkbox"]:after{
 #checkBoxText{
 
     font-family:NexaThin;
+    font-size: clamp(2px, 2vw, 15px);
 }
